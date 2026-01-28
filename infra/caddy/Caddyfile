@@ -1,0 +1,35 @@
+{
+	admin off
+}
+
+{$DOMAIN:localhost} {
+	# API endpoints - auth required
+	route /sample-nestjs/* {
+		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
+		respond @unauthorized "Unauthorized" 403
+		uri strip_prefix /sample-nestjs
+		reverse_proxy sample-nestjs:3000
+	}
+
+	route /sample-python/* {
+		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
+		respond @unauthorized "Unauthorized" 403
+		uri strip_prefix /sample-python
+		reverse_proxy sample-python:8000
+	}
+
+	# Docs endpoints - no auth required
+	handle /sample-nestjs-docs/* {
+		uri strip_prefix /sample-nestjs-docs
+		reverse_proxy sample-nestjs:3000
+	}
+
+	handle /sample-python-docs/* {
+		uri strip_prefix /sample-python-docs
+		reverse_proxy sample-python:8000
+	}
+
+	handle / {
+		respond "API Gateway" 200
+	}
+}
