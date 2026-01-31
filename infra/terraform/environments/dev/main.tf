@@ -2,28 +2,59 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~> 5.0"
+      version = "6.8.0"
     }
   }
 }
 
 provider "google" {
-  project = var.gcp_project_id
-  region  = var.region
+  project = var.project_id
+  region  = "europe-west3"
+  zone    = "europe-west3-a"
 }
 
-module "compute" {
-  source = "../../modules/compute"
-
-  project_name   = "api-to-sell"
-  environment    = "dev"
-  machine_type   = "e2-small"
-  zone           = "${var.region}-a"
-  disk_size_gb   = 20
-  ssh_user       = var.ssh_user
-  ssh_public_key = var.ssh_public_key
+resource "google_compute_network" "vpc_network" {
+  name = "terraform-network"
 }
 
-output "server_ip" {
-  value = module.compute.external_ip
+resource "google_compute_instance" "instance_name" {
+  name         = "parsa1-dev-instance"
+  machine_type = "e2-medium"
+  tags         = ["dev"]
+
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-11"
+    }
+  }
+
+  network_interface {
+    network = google_compute_network.vpc_network.name
+    access_config {
+    }
+  }
+}
+
+resource "google_compute_firewall" "allow_http_https" {
+  name    = "allow-http-https"
+  network = google_compute_network.vpc_network.name
+
+  allow {
+    protocol = "tcp"
+    ports    = ["80", "443"]
+  }
+
+  source_ranges = ["0.0.0.0/0"]
+}
+
+resource "google_compute_firewall" "allow_ssh" {
+  name    = "allow-ssh"
+  network = google_compute_network.vpc_network.name
+
+  allow {
+    protocol = "tcp"
+    ports    = ["22"]
+  }
+
+  source_ranges = ["0.0.0.0/0"]
 }

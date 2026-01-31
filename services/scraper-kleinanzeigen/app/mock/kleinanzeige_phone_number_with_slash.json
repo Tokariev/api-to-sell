@@ -1,0 +1,442 @@
+{
+  "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad": {
+    "name": "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad",
+    "declaredType": "com.ebay.ecg.api.spec.v1.schema.ad.Ad",
+    "scope": "javax.xml.bind.JAXBElement$GlobalScope",
+    "value": {
+      "price": {
+        "currency-iso-code": {
+          "value": { "value": "EUR", "localized-label": "\u20ac" }
+        },
+        "amount": { "value": 9400.0 },
+        "price-type": { "value": "PLEASE_CONTACT" }
+      },
+      "ad-type": { "value": "OFFERED" },
+      "poster-type": { "value": "PRIVATE" },
+      "title": { "value": "Opel Combo D Tour (Hochdachkombi)" },
+      "description": {
+        "value": "Hochdachkombi, Opel Combo Tour<br />Sehr guter Zustand<br />- Schiebet\u00fcren rechts und links<br />- Fahrradtr\u00e4ger f\u00fcr 2 R\u00e4der<br />- abnehmbare H\u00e4ngerkupplung<br />- neuwertige Sommerr\u00e4der<br />- Winterr\u00e4der<br />- Sitzheizung vorn<br />- el. verstellbare Spiegel<br />- Heckscheiben Heizung<br />- Windabweiser an allen T\u00fcren<br />- Trittbretter<br />- Zentralverriegelung<br />- Berganfahrhilfe<br />- dunkel get\u00f6nte Scheiben hinten<br />- R\u00fcckfahrwarner<br />- R\u00fcckfahrkamera<br />- Freisprecheinrichtung<br />Kein H\u00e4ngerbetrieb, Anh\u00e4ngerkupplung wurde nur f\u00fcr Fahrradtr\u00e4ger genutzt<br />Zahnriemen, vordere Federn, Bremsen vorn, Batterie in letzten Jahren erneuert<br />Bei Kauf T\u00dcV auf Wunsch neu<br />Besichtigung und Probefahrt nach Absprache jederzeit m\u00f6glich.<br />Tel. 034636&#x2F;289878<br />Preis VB"
+      },
+      "imprint": {},
+      "ad-address": {
+        "street": { "value": "" },
+        "state": { "value": "Bad Lauchst\u00e4dt" },
+        "zip-code": { "value": "06246" },
+        "longitude": { "value": "11.8333" },
+        "latitude": { "value": "51.3666" },
+        "radius": { "value": "4.17" }
+      },
+      "ad-status": { "value": "DELETED" },
+      "contact-name": { "value": "Beck..." },
+      "contact-name-initials": { "value": "B" },
+      "user-id": { "value": "3162202" },
+      "store-id": {},
+      "seller-account-type": { "value": "PRIVATE" },
+      "user-rating": { "averageRating": { "value": 0.8823529411764706 } },
+      "userBadges": {
+        "badges": [
+          { "name": "rating", "level": "2", "value": "" },
+          { "name": "friendliness", "level": "2", "value": "" },
+          { "name": "reliability", "level": "2", "value": "" }
+        ]
+      },
+      "ad-source-id": { "value": "16" },
+      "ad-external-reference-id": {},
+      "phone": {},
+      "start-date-time": { "value": "2023-08-08T11:39:50.000+0200" },
+      "user-since-date-time": { "value": "2010-09-16T10:37:34.000+0200" },
+      "features-active": { "feature-active": [] },
+      "category": {
+        "id-name": { "value": "Autos" },
+        "localized-name": { "value": "Autos" },
+        "link": [],
+        "category": [],
+        "parent-id": { "value": "210" },
+        "has-fake-sub-category": { "value": "true" },
+        "id": "216"
+      },
+      "locations": {
+        "location": [
+          {
+            "regions": {
+              "region": [{ "localized-name": { "value": "Sachsen-Anhalt" } }],
+              "localized-label": "Bundesland"
+            },
+            "location": [],
+            "id": "19070"
+          }
+        ]
+      },
+      "buy-now": { "selected": "false" },
+      "attributes": {
+        "attribute": [
+          {
+            "value": [{ "value": "opel", "localized-label": "Opel" }],
+            "name": "autos.marke",
+            "unit": "",
+            "search-display": "false",
+            "dependent-name": "autos.model",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Marke"
+          },
+          {
+            "value": [{ "value": "combo", "localized-label": "Combo" }],
+            "name": "autos.model",
+            "unit": "",
+            "search-display": "false",
+            "parent-name": "autos.marke",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Modell"
+          },
+          {
+            "value": [{ "value": "80420", "localized-label": "80.420" }],
+            "name": "autos.km",
+            "unit": "km",
+            "search-display": "true",
+            "min-value": "0",
+            "max-value": "2000000",
+            "type": "LONG",
+            "localized-label": "Kilometerstand"
+          },
+          {
+            "value": [
+              {
+                "value": "nein",
+                "localized-label": "Unbesch\u00e4digtes Fahrzeug"
+              }
+            ],
+            "name": "autos.schaden",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugzustand"
+          },
+          {
+            "value": [{ "value": "2013", "localized-label": "2013" }],
+            "name": "autos.ezdate",
+            "unit": "",
+            "search-display": "true",
+            "min-value": "1910-01-01",
+            "max-value": "2023-08-24",
+            "date-type": "YEAR_MONTH",
+            "type": "DATE",
+            "localized-label": "Erstzulassung"
+          },
+          {
+            "value": [{ "value": "benzin", "localized-label": "Benzin" }],
+            "name": "autos.fuel",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Kraftstoffart"
+          },
+          {
+            "value": [{ "value": "95", "localized-label": "95" }],
+            "name": "autos.power",
+            "unit": "PS",
+            "search-display": "false",
+            "min-value": "0",
+            "max-value": "20000",
+            "type": "LONG",
+            "localized-label": "Leistung"
+          },
+          {
+            "value": [{ "value": "manuell", "localized-label": "Manuell" }],
+            "name": "autos.shift",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Getriebe"
+          },
+          {
+            "value": [{ "value": "kombi", "localized-label": "Kombi" }],
+            "name": "autos.typ",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugtyp"
+          },
+          {
+            "value": [{ "value": "4_5", "localized-label": "4/5" }],
+            "name": "autos.anzahl_tueren",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Anzahl T\u00fcren"
+          },
+          {
+            "value": [
+              { "value": "4_gruen", "localized-label": "4 (Gr\u00fcn)" }
+            ],
+            "name": "autos.umweltplakette",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Umweltplakette"
+          },
+          {
+            "value": [{ "value": "euro5", "localized-label": "Euro5" }],
+            "name": "autos.schadstoffklasse",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Schadstoffklasse"
+          },
+          {
+            "value": [{ "value": "blau", "localized-label": "Blau" }],
+            "name": "autos.aussenfarbe",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Au\u00dfenfarbe"
+          },
+          {
+            "value": [{ "value": "stoff", "localized-label": "Stoff" }],
+            "name": "autos.material_innenausstattung",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Material Innenausstattung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.trailer_coupling",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Anh\u00e4ngerkupplung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.park_assistant",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Einparkhilfe"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.air_conditioning",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Klimaanlage"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.navi",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Navigationssystem"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.radio_tuner",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Radio/Tuner"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.handsfree_speaker",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Freisprecheinrichtung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.seat_heating",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Sitzheizung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.speed_control",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Tempomat"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.non_smoking",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Nichtraucher-Fahrzeug"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.abs",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Antiblockiersystem (ABS)"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.full_service_history",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Scheckheftgepflegt"
+          }
+        ]
+      },
+      "link": [
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/ads/2515284132",
+          "rel": "self"
+        },
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/users/3162202/ads/2515284132",
+          "rel": "self-user"
+        },
+        {
+          "href": "https://www.kleinanzeigen.de/s-anzeige/opel-combo-d-tour-hochdachkombi-/2515284132-216-19070",
+          "rel": "self-public-website"
+        }
+      ],
+      "pictures": {
+        "picture": [
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a908967-8d29-4b13-9f26-ce96cb363e98?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a908967-8d29-4b13-9f26-ce96cb363e98?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a908967-8d29-4b13-9f26-ce96cb363e98?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a908967-8d29-4b13-9f26-ce96cb363e98?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a908967-8d29-4b13-9f26-ce96cb363e98?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a908967-8d29-4b13-9f26-ce96cb363e98?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/78d0c2ef-794f-472f-8cfc-9349012a9e57?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/78d0c2ef-794f-472f-8cfc-9349012a9e57?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/78d0c2ef-794f-472f-8cfc-9349012a9e57?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/78d0c2ef-794f-472f-8cfc-9349012a9e57?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/78d0c2ef-794f-472f-8cfc-9349012a9e57?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/78d0c2ef-794f-472f-8cfc-9349012a9e57?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          }
+        ]
+      },
+      "documents": { "document": [] },
+      "displayoptions": {
+        "reduced-ads-on-vip": { "value": "false" },
+        "hide-ads-on-vip": { "value": "false" },
+        "show-ratings": { "value": "true" },
+        "ad-flagging-enabled": { "value": "true" },
+        "hide-similard-ads-on-vip": { "value": "false" },
+        "category-change-allowed": { "value": "true" },
+        "offer-allowed": { "value": "false" },
+        "secure-payment-possible": { "value": "false" },
+        "ad-description-formatting-enabled": { "value": "false" },
+        "ad-documents-upload-enabled": { "value": "false" },
+        "display-map-on-vip": { "value": "false" },
+        "licence-plate-blurring-enabled": { "value": "false" },
+        "contact-poster-feedback": "",
+        "lead-generation-target": { "value": "false" },
+        "enable-image-titles": { "value": "false" }
+      },
+      "tracking": { "user-account-type": { "value": "private" } },
+      "dfp-params": { "dfp-param": [{ "key": "kba", "value": "12" }] },
+      "medias": { "media": [] },
+      "otherAttributes": {},
+      "id": "2515284132",
+      "version": "1.16",
+      "locale": "de_DE"
+    },
+    "nil": false,
+    "globalScope": true,
+    "typeSubstituted": true
+  }
+}

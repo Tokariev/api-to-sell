@@ -1,0 +1,889 @@
+{
+  "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad": {
+    "name": "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad",
+    "declaredType": "com.ebay.ecg.api.spec.v1.schema.ad.Ad",
+    "scope": "javax.xml.bind.JAXBElement$GlobalScope",
+    "value": {
+      "price": {
+        "currency-iso-code": {
+          "value": { "value": "EUR", "localized-label": "\u20ac" }
+        },
+        "amount": { "value": 8990.0 },
+        "price-type": { "value": "SPECIFIED_AMOUNT" }
+      },
+      "ad-type": { "value": "OFFERED" },
+      "poster-type": { "value": "COMMERCIAL" },
+      "title": {
+        "value": "Kia Picanto 1.0 Attract&#x2F;Klima&#x2F;Navi&#x2F;Alu&#x2F;Kamera&#x2F;Isofix&#x2F;&#x2F;Garantie26"
+      },
+      "description": {
+        "value": "Sch\u00f6ner Kia Picanto 1.0 Attract mit toller Ausstattung.<br /><br />Navi&#x2F;Klima&#x2F;Kamera usw.<br /><br />1. Hand<br /><br />Scheckheft!<br /><br />Inspektion und HU bei Verkauf, NEU!<br /><br />Werksgarantie bis 06.2026<br /><br />Irrt\u00fcmer und Vorverkauf vorbehalten!<br /><br />Ausstattung:<br />Komfort<br />Einparkhilfe<br />Einparkhilfe Kamera<br />Elektr. Fensterheber<br />Elektrische Seitenspiegel<br />Get\u00f6nte Scheiben<br />Klimaanlage<br />Lederlenkrad<br />Lichtsensor<br />Multifunktionslenkrad<br />Navigationssystem<br />Start&#x2F;Stop-Automatik<br />teilb. R\u00fccksitzbank<br />Unterhaltung&#x2F;Media<br />Bluetooth<br />Bordcomputer<br />Freisprecheinrichtung<br />Radio<br />USB<br />Sicherheit<br />ABS<br />Airbag hinten<br />Alarmanlage<br />Beifahrerairbag<br />ESP<br />Fahrerairbag<br />Isofix<br />Kopfairbag<br />Nebelscheinwerfer<br />Reifendruckkontrollsystem<br />Seitenairbag<br />Servolenkung<br />Tagfahrlicht<br />Traktionskontrolle<br />Wegfahrsperre<br />Zentralverriegelung<br />Zentralverriegelung mit Funkfernbedienung<br />Extras<br />Alufelgen (15&quot;)<br />Ambientebeleuchtung<br />Katalysator<br />Sprachsteuerung<br />Touchscreen"
+      },
+      "imprint": {
+        "value": "Autohandel M. Jutz\r\n\r\nAuf Reissenmauer 2\r\nDE-54634 Metterich\r\n\r\nTelefon: +496565956943\r\neMail: Monika.Jutz@web.de\r\n\r\nHandelsregister: AG Bitburg\r\n\r\nUmsatzsteuer-Identifikationsnr. nach \u00a7 27a Umsatzsteuergesetz:\r\nDE282335665\r\n\r\nVertretungsberechtigt; Monika Jutz\r\n\r\n\r\nDatenschutz Erkl\u00e4rung gem\u00e4\u00df \u00a7 13 Telemediengesetz (TMG) \u2010 Pflichten des Diensteanbieters Autohandel M. Jutz nimmt den Schutz Ihrer personenbezogenen Daten sehr ernst. Wir m\u00f6chten, dass Sie wissen, wann wir welche Daten erheben und wie wir sie verwenden. Personenbezogene Daten, die von Autohandel M. Jutz im Rahmen einer Nachfrage sowie zur Durchf\u00fchrung von digitalen Serviceleistungen erhoben werden, werden nicht an Dritte weitergegeben und nur genutzt, wenn der Nutzer ausdr\u00fccklich eingewilligt hat oder eine Rechtsvorschrift es anordnet oder erlaubt.\r\n\r\nRechte des Betroffenen: Auskunft, Berichtigung, L\u00f6schung und Sperrung, Widerspruchsrecht\r\n\r\nSie sind gem\u00e4\u00df \u00a7 15 DSGVO jederzeit berechtigt, gegen\u00fcber der Firma Auto Jutz um umfangreiche Auskunftserteilung zu den zu Ihrer Person gespeicherten Daten zu ersuchen.\r\nGem\u00e4\u00df \u00a7 17 DSGVO k\u00f6nnen Sie jederzeit gegen\u00fcber der Firma Auto Jutz die Berichtigung, L\u00f6schung und Sperrung einzelner personenbezogener Daten verlangen.\r\nSie k\u00f6nnen dar\u00fcber hinaus jederzeit ohne Angabe von Gr\u00fcnden von Ihrem Widerspruchsrecht Gebrauch machen, und die erteilte Einwilligungserkl\u00e4rung mit Wirkung f\u00fcr die Zukunft ab\u00e4ndern oder g\u00e4nzlich widerrufen.\r\nSie k\u00f6nnen den Widerruf entweder postalisch, per E-Mail oder per Fax an den Vertragspartner \u00fcbermitteln.\r\n\r\nKontaktdaten:\r\nMonika Jutz\r\nAuf Reissenmauer 2\r\n54634 Metterich\r\nTel.: 06565 956943\r\nE-Mail: monika.jutz@web.de\r\n\r\n\r\n\r\nDie Europ\u00e4ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter folgendem Link finden:\r\nhttp://ec.europa.eu/odr"
+      },
+      "ad-address": {
+        "street": { "value": "Auf Reissenmauer 2" },
+        "state": { "value": "Metterich" },
+        "zip-code": { "value": "54634" },
+        "longitude": { "value": "6.5865" },
+        "latitude": { "value": "49.9787" },
+        "radius": { "value": "1.0" }
+      },
+      "ad-status": { "value": "ACTIVE" },
+      "contact-name": { "value": "M. H." },
+      "contact-name-initials": { "value": "MH" },
+      "user-id": { "value": "37592500" },
+      "store-id": {},
+      "seller-account-type": { "value": "COMMERCIAL" },
+      "user-rating": { "averageRating": { "value": 0.6875 } },
+      "userBadges": {
+        "badges": [
+          { "name": "rating", "level": "2", "value": "" },
+          { "name": "friendliness", "level": "0", "value": "" },
+          { "name": "reliability", "level": "1", "value": "" }
+        ]
+      },
+      "ad-source-id": {},
+      "ad-external-reference-id": {},
+      "phone": { "value": "+496565956943" },
+      "start-date-time": { "value": "2023-11-06T16:21:49.000+0100" },
+      "user-since-date-time": { "value": "2016-03-08T12:55:30.000+0100" },
+      "features-active": { "feature-active": [] },
+      "category": {
+        "id-name": { "value": "Autos" },
+        "localized-name": { "value": "Autos" },
+        "link": [],
+        "category": [],
+        "parent-id": { "value": "210" },
+        "has-fake-sub-category": { "value": "true" },
+        "id": "216"
+      },
+      "locations": {
+        "location": [
+          {
+            "regions": {
+              "region": [{ "localized-name": { "value": "Rheinland-Pfalz" } }],
+              "localized-label": "Bundesland"
+            },
+            "location": [],
+            "id": "22954"
+          }
+        ]
+      },
+      "buy-now": { "selected": "false" },
+      "attributes": {
+        "attribute": [
+          {
+            "value": [{ "value": "kia", "localized-label": "Kia" }],
+            "name": "autos.marke",
+            "unit": "",
+            "search-display": "false",
+            "dependent-name": "autos.model",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Marke"
+          },
+          {
+            "value": [{ "value": "picanto", "localized-label": "Picanto" }],
+            "name": "autos.model",
+            "unit": "",
+            "search-display": "false",
+            "parent-name": "autos.marke",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Modell"
+          },
+          {
+            "value": [{ "value": "71000", "localized-label": "71.000" }],
+            "name": "autos.km",
+            "unit": "km",
+            "search-display": "true",
+            "min-value": "0",
+            "max-value": "2000000",
+            "type": "LONG",
+            "localized-label": "Kilometerstand"
+          },
+          {
+            "value": [
+              {
+                "value": "nein",
+                "localized-label": "Unbesch\u00e4digtes Fahrzeug"
+              }
+            ],
+            "name": "autos.schaden",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugzustand"
+          },
+          {
+            "value": [{ "value": "2019-06", "localized-label": "Juni 2019" }],
+            "name": "autos.ezdate",
+            "unit": "",
+            "search-display": "true",
+            "min-value": "1910-01-01",
+            "max-value": "2023-11-06",
+            "date-type": "YEAR_MONTH",
+            "type": "DATE",
+            "localized-label": "Erstzulassung"
+          },
+          {
+            "value": [{ "value": "benzin", "localized-label": "Benzin" }],
+            "name": "autos.fuel",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Kraftstoffart"
+          },
+          {
+            "value": [{ "value": "67", "localized-label": "67" }],
+            "name": "autos.power",
+            "unit": "PS",
+            "search-display": "false",
+            "min-value": "0",
+            "max-value": "20000",
+            "type": "LONG",
+            "localized-label": "Leistung"
+          },
+          {
+            "value": [{ "value": "manuell", "localized-label": "Manuell" }],
+            "name": "autos.shift",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Getriebe"
+          },
+          {
+            "value": [
+              { "value": "kleinwagen", "localized-label": "Kleinwagen" }
+            ],
+            "name": "autos.typ",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugtyp"
+          },
+          {
+            "value": [{ "value": "4_5", "localized-label": "4/5" }],
+            "name": "autos.anzahl_tueren",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Anzahl T\u00fcren"
+          },
+          {
+            "value": [
+              { "value": "2025-11", "localized-label": "November 2025" }
+            ],
+            "name": "autos.tuevdate",
+            "unit": "",
+            "search-display": "false",
+            "min-value": "2023-11-06",
+            "max-value": "2026-11-06",
+            "date-type": "YEAR_MONTH",
+            "type": "DATE",
+            "localized-label": "HU bis"
+          },
+          {
+            "value": [
+              { "value": "4_gruen", "localized-label": "4 (Gr\u00fcn)" }
+            ],
+            "name": "autos.umweltplakette",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Umweltplakette"
+          },
+          {
+            "value": [{ "value": "euro5", "localized-label": "Euro5" }],
+            "name": "autos.schadstoffklasse",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Schadstoffklasse"
+          },
+          {
+            "value": [{ "value": "rot", "localized-label": "Rot" }],
+            "name": "autos.aussenfarbe",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Au\u00dfenfarbe"
+          },
+          {
+            "value": [{ "value": "stoff", "localized-label": "Stoff" }],
+            "name": "autos.material_innenausstattung",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Material Innenausstattung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.park_assistant",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Einparkhilfe"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.alluminium_rims",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Leichtmetallfelgen"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.air_conditioning",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Klimaanlage"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.navi",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Navigationssystem"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.radio_tuner",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Radio/Tuner"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.bluetooth",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Bluetooth"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.handsfree_speaker",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Freisprecheinrichtung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.abs",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Antiblockiersystem (ABS)"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.full_service_history",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Scheckheftgepflegt"
+          }
+        ]
+      },
+      "link": [
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/ads/2595125714",
+          "rel": "self"
+        },
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/users/37592500/ads/2595125714",
+          "rel": "self-user"
+        },
+        {
+          "href": "https://www.kleinanzeigen.de/s-anzeige/kia-picanto-1-0-attract-klima-navi-alu-kamera-isofix-garantie26/2595125714-216-22954",
+          "rel": "self-public-website"
+        }
+      ],
+      "pictures": {
+        "picture": [
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1463f728-89bb-4c3b-a9dc-521904b7d396?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1463f728-89bb-4c3b-a9dc-521904b7d396?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1463f728-89bb-4c3b-a9dc-521904b7d396?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1463f728-89bb-4c3b-a9dc-521904b7d396?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1463f728-89bb-4c3b-a9dc-521904b7d396?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1463f728-89bb-4c3b-a9dc-521904b7d396?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e3/e34293fd-d5a7-4992-9f4b-7b2ff2133271?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e3/e34293fd-d5a7-4992-9f4b-7b2ff2133271?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e3/e34293fd-d5a7-4992-9f4b-7b2ff2133271?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e3/e34293fd-d5a7-4992-9f4b-7b2ff2133271?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e3/e34293fd-d5a7-4992-9f4b-7b2ff2133271?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e3/e34293fd-d5a7-4992-9f4b-7b2ff2133271?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/47/47d604cf-2d17-4412-afb9-88cf4f981ca5?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/47/47d604cf-2d17-4412-afb9-88cf4f981ca5?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/47/47d604cf-2d17-4412-afb9-88cf4f981ca5?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/47/47d604cf-2d17-4412-afb9-88cf4f981ca5?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/47/47d604cf-2d17-4412-afb9-88cf4f981ca5?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/47/47d604cf-2d17-4412-afb9-88cf4f981ca5?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eef8902e-a4b4-4793-9e08-5bd52549cfad?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eef8902e-a4b4-4793-9e08-5bd52549cfad?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eef8902e-a4b4-4793-9e08-5bd52549cfad?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eef8902e-a4b4-4793-9e08-5bd52549cfad?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eef8902e-a4b4-4793-9e08-5bd52549cfad?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eef8902e-a4b4-4793-9e08-5bd52549cfad?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1b7c55f-d311-48d9-becf-57eced0fbc86?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1b7c55f-d311-48d9-becf-57eced0fbc86?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1b7c55f-d311-48d9-becf-57eced0fbc86?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1b7c55f-d311-48d9-becf-57eced0fbc86?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1b7c55f-d311-48d9-becf-57eced0fbc86?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1b7c55f-d311-48d9-becf-57eced0fbc86?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ed6244a-6c1f-4749-8234-ae57cff72762?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ed6244a-6c1f-4749-8234-ae57cff72762?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ed6244a-6c1f-4749-8234-ae57cff72762?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ed6244a-6c1f-4749-8234-ae57cff72762?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ed6244a-6c1f-4749-8234-ae57cff72762?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ed6244a-6c1f-4749-8234-ae57cff72762?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5526be5b-09e9-48a8-9d25-e4d4fbbaec47?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5526be5b-09e9-48a8-9d25-e4d4fbbaec47?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5526be5b-09e9-48a8-9d25-e4d4fbbaec47?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5526be5b-09e9-48a8-9d25-e4d4fbbaec47?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5526be5b-09e9-48a8-9d25-e4d4fbbaec47?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5526be5b-09e9-48a8-9d25-e4d4fbbaec47?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eb9d2be-41aa-4c8a-b1e1-22263094b0fc?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eb9d2be-41aa-4c8a-b1e1-22263094b0fc?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eb9d2be-41aa-4c8a-b1e1-22263094b0fc?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eb9d2be-41aa-4c8a-b1e1-22263094b0fc?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eb9d2be-41aa-4c8a-b1e1-22263094b0fc?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eb9d2be-41aa-4c8a-b1e1-22263094b0fc?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02be540e-8368-49f1-ae47-bf514c7ab654?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02be540e-8368-49f1-ae47-bf514c7ab654?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02be540e-8368-49f1-ae47-bf514c7ab654?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02be540e-8368-49f1-ae47-bf514c7ab654?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02be540e-8368-49f1-ae47-bf514c7ab654?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02be540e-8368-49f1-ae47-bf514c7ab654?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e075b3c3-7779-4878-9c20-3cdba61c6b31?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e075b3c3-7779-4878-9c20-3cdba61c6b31?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e075b3c3-7779-4878-9c20-3cdba61c6b31?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e075b3c3-7779-4878-9c20-3cdba61c6b31?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e075b3c3-7779-4878-9c20-3cdba61c6b31?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e075b3c3-7779-4878-9c20-3cdba61c6b31?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7ea4ac60-1090-4066-87f3-b87c3c86aedc?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7ea4ac60-1090-4066-87f3-b87c3c86aedc?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7ea4ac60-1090-4066-87f3-b87c3c86aedc?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7ea4ac60-1090-4066-87f3-b87c3c86aedc?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7ea4ac60-1090-4066-87f3-b87c3c86aedc?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7ea4ac60-1090-4066-87f3-b87c3c86aedc?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/572ad30b-b07c-4c7c-ba40-fd0ba6fa5f4d?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/572ad30b-b07c-4c7c-ba40-fd0ba6fa5f4d?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/572ad30b-b07c-4c7c-ba40-fd0ba6fa5f4d?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/572ad30b-b07c-4c7c-ba40-fd0ba6fa5f4d?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/572ad30b-b07c-4c7c-ba40-fd0ba6fa5f4d?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/572ad30b-b07c-4c7c-ba40-fd0ba6fa5f4d?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d16a0c1f-3501-4490-8abc-cc4de02e68e6?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d16a0c1f-3501-4490-8abc-cc4de02e68e6?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d16a0c1f-3501-4490-8abc-cc4de02e68e6?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d16a0c1f-3501-4490-8abc-cc4de02e68e6?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d16a0c1f-3501-4490-8abc-cc4de02e68e6?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d16a0c1f-3501-4490-8abc-cc4de02e68e6?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/dae508d6-dd3e-4228-bbda-45d82ca2ec38?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/dae508d6-dd3e-4228-bbda-45d82ca2ec38?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/dae508d6-dd3e-4228-bbda-45d82ca2ec38?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/dae508d6-dd3e-4228-bbda-45d82ca2ec38?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/dae508d6-dd3e-4228-bbda-45d82ca2ec38?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/dae508d6-dd3e-4228-bbda-45d82ca2ec38?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e199d0a-82fc-41bf-b848-d5d06f293b16?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e199d0a-82fc-41bf-b848-d5d06f293b16?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e199d0a-82fc-41bf-b848-d5d06f293b16?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e199d0a-82fc-41bf-b848-d5d06f293b16?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e199d0a-82fc-41bf-b848-d5d06f293b16?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e199d0a-82fc-41bf-b848-d5d06f293b16?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/efacefa1-59ae-44ec-94cb-ed807bdc024d?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/efacefa1-59ae-44ec-94cb-ed807bdc024d?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/efacefa1-59ae-44ec-94cb-ed807bdc024d?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/efacefa1-59ae-44ec-94cb-ed807bdc024d?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/efacefa1-59ae-44ec-94cb-ed807bdc024d?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/efacefa1-59ae-44ec-94cb-ed807bdc024d?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9109d71f-80b8-469b-aa92-ff8269b324dc?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9109d71f-80b8-469b-aa92-ff8269b324dc?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9109d71f-80b8-469b-aa92-ff8269b324dc?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9109d71f-80b8-469b-aa92-ff8269b324dc?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9109d71f-80b8-469b-aa92-ff8269b324dc?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9109d71f-80b8-469b-aa92-ff8269b324dc?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/03f6fd78-699b-46ab-a9a5-81d8fe976beb?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/03f6fd78-699b-46ab-a9a5-81d8fe976beb?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/03f6fd78-699b-46ab-a9a5-81d8fe976beb?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/03f6fd78-699b-46ab-a9a5-81d8fe976beb?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/03f6fd78-699b-46ab-a9a5-81d8fe976beb?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/03f6fd78-699b-46ab-a9a5-81d8fe976beb?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          }
+        ]
+      },
+      "documents": { "document": [] },
+      "displayoptions": {
+        "reduced-ads-on-vip": { "value": "false" },
+        "hide-ads-on-vip": { "value": "false" },
+        "show-ratings": { "value": "true" },
+        "ad-flagging-enabled": { "value": "true" },
+        "hide-similard-ads-on-vip": { "value": "false" },
+        "category-change-allowed": { "value": "true" },
+        "offer-allowed": { "value": "false" },
+        "secure-payment-possible": { "value": "false" },
+        "ad-description-formatting-enabled": { "value": "false" },
+        "ad-documents-upload-enabled": { "value": "false" },
+        "display-map-on-vip": { "value": "false" },
+        "licence-plate-blurring-enabled": { "value": "false" },
+        "contact-poster-feedback": "",
+        "lead-generation-target": { "value": "false" },
+        "enable-image-titles": { "value": "false" }
+      },
+      "tracking": { "user-account-type": { "value": "commercial" } },
+      "dfp-params": { "dfp-param": [{ "key": "kba", "value": "01" }] },
+      "medias": { "media": [] },
+      "otherAttributes": {},
+      "id": "2595125714",
+      "version": "1.16",
+      "locale": "de_DE"
+    },
+    "nil": false,
+    "globalScope": true,
+    "typeSubstituted": true
+  }
+}

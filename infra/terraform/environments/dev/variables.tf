@@ -1,16 +1,10 @@
-variable "gcp_project_id" {
-  type = string
+variable "project_id" {
+  description = "The GCP project ID"
+  type        = string
 }
 
-variable "region" {
-  type    = string
-  default = "us-central1"
-}
-
-variable "ssh_user" {
-  type = string
-}
-
-variable "ssh_public_key" {
-  type = string
+variable "zone" {
+  description = "The GCP zone for the VM instance"
+  type        = string
+  default     = "europe-west3-a"
 }

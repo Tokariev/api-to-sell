@@ -1,0 +1,737 @@
+{
+  "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad": {
+    "name": "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad",
+    "declaredType": "com.ebay.ecg.api.spec.v1.schema.ad.Ad",
+    "scope": "javax.xml.bind.JAXBElement$GlobalScope",
+    "value": {
+      "price": {
+        "currency-iso-code": {
+          "value": { "value": "EUR", "localized-label": "\u20ac" }
+        },
+        "amount": { "value": 38900.0 },
+        "price-type": { "value": "PLEASE_CONTACT" }
+      },
+      "ad-type": { "value": "OFFERED" },
+      "poster-type": { "value": "PRIVATE" },
+      "title": { "value": "Golf 7R Performance Akrapovic HGP" },
+      "description": {
+        "value": "Golf 7R Performance Akrapovic HGP<br />Au\u00dfenspiegel elek. einstell-anklapp-beheizbar,Umfeldbeleuchtung,Beifahrerspiegelabsenkung,Memory<br />LED Hauptscheinwerfer mit variabler Lichtverteilung<br />Mit R\u00fcckfahrkamerasystem (Ausf.1)<br />Navigationsger\u00e4t High<br />Multifunktionsanzeige&#x2F;Bordcomputer \u201eFPk\u201c<br />Sitzmittelbahnen Leder Nappa,wangeninnenseiten in Leder Carbon Style(Spezialledet) R Logo vorn<br />Radio High (Gen2 GP)<br />Automatische Distanzregelung (mit follow to stop) und Speed Limiter<br />Zentralverriegelung Keyless Entry<br />Komfort telefonle und Wireless charging<br />Lendenwirbelst\u00fctze elektr. Einstellbar<br />Sitzeinstellung li elektrisch mit Memory<br />Sitzheizung f\u00fcr Vordersitze getrennt regelbar<br />Progressive Lenkung f\u00fcr 19-Zoll Leichtmetallr\u00e4der<br />Scheibenwischer intervall mit mit Licht&#x2F;Regensensor<br />Spoilerdach<br />Seitenscheiben hinten und Heckscheibe abgedunkelt 90% Lichtabsorbierend<br />Front Assist inkl City ANB f\u00fcr ACC High<br />Spurhalte,Stau,Auspark,Totwinkel (BSD) und Energency Assist<br />Tagesfahrlicht mit Assitenzfahrlicht und Coming -Leaving home Funktion<br />Fahrprofilauswahl und hydr D\u00e4mpferregelung<br />Extern. USBTyp A 2x USB Buchsen<br />Digitaler Radioempfang<br />Mit erweiterten Sicherheitssystem (Pre Crash)<br />Maskiertes Dauervernlicht<br />Soundsystem DYNAUDIO Excite digitaler 10 Kanal Verst\u00e4rker Subwoofer 8 Lautsprecher 400 Watt Gesamtleistung<br />Verkehrszeichenerkennung<br />Mirror Link plus Wireless RSE app<br />Klimakomfortscheibe<br />Sprachsteuerung<br />Reifen 235&#x2F;35 R19 91Y<br />Adaptive Fahrwerksregelung DCC<br />Fahrassistenzpaket Plus<br />D\u00e4mpfung Sportausf\u00fchrung<br />Business Premium Paket inkl Navigation<br />Lederpaket Nappa Carbon Volkswagen R mit top Sportsitzen vorn<br />Top Paket<br />R Performance Paket<br />R Performance Abgasanlage Endschalld\u00e4mpfer in Titan<br />R Performance Scheibenbremsen in Verbundtechnik innenbel\u00fcftet,Bremssattel schwarz mit R Logo<br />Heckspoiler R Styling<br />Au\u00dfenspiegel schwarz glanz<br />Ohne Geschwindigkeitsbegrenzungsanlage<br />Einparkhilfe vorne und hinten<br />Klimaanlage Air Care Climstronic mit 2 Zonen Temperaturregelung. Und Allergenfilter<br />Diebstahlalarmanlage Innenraum\u00fcberwachung und Abschleppschutz<br />Multifunktions Sportlenkrad in Leder mit Schaltwippen und Aludekor<br />Differenzialsperre<br />DynamioTraktionshilfe<br />Ambiente und Umfeldbeleuchtung<br />M\u00fcdigkeitserkennung<br />Dekoreinlagen Carbon<br />Leichtmetallfelgen Motec Ultralight 8,5x19<br />Leistungssteigerung der Firma HGP Typ HGP-20T390 Bestehend aus ge\u00e4ndertem Motorsteuerger\u00f6t, Abgasvorrohr HGP 20T und Luftfilter Kennzeichen HGP 20T LU<br />alle technischen \u00c4nderungen sind vom T\u00fcv&#x5c;Dekra abgenommen<br />Das Fahrzeug ist L\u00fcckenlos Scheckheftgepflegt vom Volkswagen Zentrum"
+      },
+      "imprint": {},
+      "ad-address": {
+        "street": { "value": "" },
+        "state": { "value": "Kleinaitingen" },
+        "zip-code": { "value": "86507" },
+        "longitude": { "value": "10.842313" },
+        "latitude": { "value": "48.218155" },
+        "radius": { "value": "2.37" }
+      },
+      "ad-status": { "value": "ACTIVE" },
+      "contact-name": { "value": "Schorsch" },
+      "contact-name-initials": { "value": "S" },
+      "user-id": { "value": "33241153" },
+      "store-id": {},
+      "seller-account-type": { "value": "PRIVATE" },
+      "user-rating": { "averageRating": { "value": 1.0 } },
+      "userBadges": {
+        "badges": [
+          { "name": "rating", "level": "2", "value": "" },
+          { "name": "friendliness", "level": "0", "value": "" },
+          { "name": "reliability", "level": "0", "value": "" }
+        ]
+      },
+      "ad-source-id": { "value": "8" },
+      "ad-external-reference-id": {},
+      "phone": {},
+      "start-date-time": { "value": "2023-08-24T13:53:48.000+0200" },
+      "user-since-date-time": { "value": "2015-09-08T17:10:36.000+0200" },
+      "features-active": { "feature-active": [] },
+      "category": {
+        "id-name": { "value": "Autos" },
+        "localized-name": { "value": "Autos" },
+        "link": [],
+        "category": [],
+        "parent-id": { "value": "210" },
+        "has-fake-sub-category": { "value": "true" },
+        "id": "216"
+      },
+      "locations": {
+        "location": [
+          {
+            "regions": {
+              "region": [{ "localized-name": { "value": "Bayern" } }],
+              "localized-label": "Bundesland"
+            },
+            "location": [],
+            "id": "17440"
+          }
+        ]
+      },
+      "buy-now": { "selected": "false" },
+      "attributes": {
+        "attribute": [
+          {
+            "value": [
+              { "value": "volkswagen", "localized-label": "Volkswagen" }
+            ],
+            "name": "autos.marke",
+            "unit": "",
+            "search-display": "false",
+            "dependent-name": "autos.model",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Marke"
+          },
+          {
+            "value": [{ "value": "golf", "localized-label": "Golf" }],
+            "name": "autos.model",
+            "unit": "",
+            "search-display": "false",
+            "parent-name": "autos.marke",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Modell"
+          },
+          {
+            "value": [{ "value": "43800", "localized-label": "43.800" }],
+            "name": "autos.km",
+            "unit": "km",
+            "search-display": "true",
+            "min-value": "0",
+            "max-value": "2000000",
+            "type": "LONG",
+            "localized-label": "Kilometerstand"
+          },
+          {
+            "value": [
+              {
+                "value": "nein",
+                "localized-label": "Unbesch\u00e4digtes Fahrzeug"
+              }
+            ],
+            "name": "autos.schaden",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugzustand"
+          },
+          {
+            "value": [{ "value": "2019-08", "localized-label": "August 2019" }],
+            "name": "autos.ezdate",
+            "unit": "",
+            "search-display": "true",
+            "min-value": "1910-01-01",
+            "max-value": "2023-08-24",
+            "date-type": "YEAR_MONTH",
+            "type": "DATE",
+            "localized-label": "Erstzulassung"
+          },
+          {
+            "value": [{ "value": "benzin", "localized-label": "Benzin" }],
+            "name": "autos.fuel",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Kraftstoffart"
+          },
+          {
+            "value": [{ "value": "390", "localized-label": "390" }],
+            "name": "autos.power",
+            "unit": "PS",
+            "search-display": "false",
+            "min-value": "0",
+            "max-value": "20000",
+            "type": "LONG",
+            "localized-label": "Leistung"
+          },
+          {
+            "value": [{ "value": "automatik", "localized-label": "Automatik" }],
+            "name": "autos.shift",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Getriebe"
+          },
+          {
+            "value": [{ "value": "limousine", "localized-label": "Limousine" }],
+            "name": "autos.typ",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugtyp"
+          },
+          {
+            "value": [{ "value": "4_5", "localized-label": "4/5" }],
+            "name": "autos.anzahl_tueren",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Anzahl T\u00fcren"
+          },
+          {
+            "value": [{ "value": "2024-08", "localized-label": "August 2024" }],
+            "name": "autos.tuevdate",
+            "unit": "",
+            "search-display": "false",
+            "min-value": "2023-08-24",
+            "max-value": "2026-08-24",
+            "date-type": "YEAR_MONTH",
+            "type": "DATE",
+            "localized-label": "HU bis"
+          },
+          {
+            "value": [
+              { "value": "4_gruen", "localized-label": "4 (Gr\u00fcn)" }
+            ],
+            "name": "autos.umweltplakette",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Umweltplakette"
+          },
+          {
+            "value": [{ "value": "euro6", "localized-label": "Euro6" }],
+            "name": "autos.schadstoffklasse",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Schadstoffklasse"
+          },
+          {
+            "value": [{ "value": "blau", "localized-label": "Blau" }],
+            "name": "autos.aussenfarbe",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Au\u00dfenfarbe"
+          },
+          {
+            "value": [{ "value": "volleder", "localized-label": "Vollleder" }],
+            "name": "autos.material_innenausstattung",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Material Innenausstattung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.park_assistant",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Einparkhilfe"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.alluminium_rims",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Leichtmetallfelgen"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.xenon_led_light",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Xenon-/LED-Scheinwerfer"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.air_conditioning",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Klimaanlage"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.navi",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Navigationssystem"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.radio_tuner",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Radio/Tuner"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.bluetooth",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Bluetooth"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.handsfree_speaker",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Freisprecheinrichtung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.sunroof",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Schiebedach/Panoramadach"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.seat_heating",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Sitzheizung"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.speed_control",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Tempomat"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.non_smoking",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Nichtraucher-Fahrzeug"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.abs",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Antiblockiersystem (ABS)"
+          },
+          {
+            "value": [{ "value": "true", "localized-label": "true" }],
+            "name": "autos.full_service_history",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Scheckheftgepflegt"
+          }
+        ]
+      },
+      "link": [
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/ads/2528089076",
+          "rel": "self"
+        },
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/users/33241153/ads/2528089076",
+          "rel": "self-user"
+        },
+        {
+          "href": "https://www.kleinanzeigen.de/s-anzeige/golf-7r-performance-akrapovic-hgp/2528089076-216-17440",
+          "rel": "self-public-website"
+        }
+      ],
+      "pictures": {
+        "picture": [
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0cdfe1e5-00a9-4986-bdc6-efbe1cce7376?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0cdfe1e5-00a9-4986-bdc6-efbe1cce7376?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0cdfe1e5-00a9-4986-bdc6-efbe1cce7376?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0cdfe1e5-00a9-4986-bdc6-efbe1cce7376?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0cdfe1e5-00a9-4986-bdc6-efbe1cce7376?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0cdfe1e5-00a9-4986-bdc6-efbe1cce7376?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97080f8a-592a-4b33-b8b8-fc3ead00dad2?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97080f8a-592a-4b33-b8b8-fc3ead00dad2?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97080f8a-592a-4b33-b8b8-fc3ead00dad2?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97080f8a-592a-4b33-b8b8-fc3ead00dad2?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97080f8a-592a-4b33-b8b8-fc3ead00dad2?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97080f8a-592a-4b33-b8b8-fc3ead00dad2?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ecb1f20d-7255-4e67-9414-82501dff6328?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ecb1f20d-7255-4e67-9414-82501dff6328?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ecb1f20d-7255-4e67-9414-82501dff6328?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ecb1f20d-7255-4e67-9414-82501dff6328?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ecb1f20d-7255-4e67-9414-82501dff6328?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ecb1f20d-7255-4e67-9414-82501dff6328?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7fa49571-90f5-4324-b57e-60c661ab791e?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7fa49571-90f5-4324-b57e-60c661ab791e?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7fa49571-90f5-4324-b57e-60c661ab791e?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7fa49571-90f5-4324-b57e-60c661ab791e?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7fa49571-90f5-4324-b57e-60c661ab791e?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7fa49571-90f5-4324-b57e-60c661ab791e?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bb2a5f4-273c-40dd-a17d-6d0bc904a2c6?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bb2a5f4-273c-40dd-a17d-6d0bc904a2c6?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bb2a5f4-273c-40dd-a17d-6d0bc904a2c6?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bb2a5f4-273c-40dd-a17d-6d0bc904a2c6?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bb2a5f4-273c-40dd-a17d-6d0bc904a2c6?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bb2a5f4-273c-40dd-a17d-6d0bc904a2c6?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/558db8eb-4ff8-4f11-8823-d6637c23d4cd?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/558db8eb-4ff8-4f11-8823-d6637c23d4cd?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/558db8eb-4ff8-4f11-8823-d6637c23d4cd?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/558db8eb-4ff8-4f11-8823-d6637c23d4cd?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/558db8eb-4ff8-4f11-8823-d6637c23d4cd?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/558db8eb-4ff8-4f11-8823-d6637c23d4cd?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712c1b91-b02f-4580-9c95-08e164a85192?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712c1b91-b02f-4580-9c95-08e164a85192?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712c1b91-b02f-4580-9c95-08e164a85192?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712c1b91-b02f-4580-9c95-08e164a85192?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712c1b91-b02f-4580-9c95-08e164a85192?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712c1b91-b02f-4580-9c95-08e164a85192?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/be/be22e076-4396-4a7f-86a6-3736465972ae?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/be/be22e076-4396-4a7f-86a6-3736465972ae?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/be/be22e076-4396-4a7f-86a6-3736465972ae?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/be/be22e076-4396-4a7f-86a6-3736465972ae?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/be/be22e076-4396-4a7f-86a6-3736465972ae?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/be/be22e076-4396-4a7f-86a6-3736465972ae?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f3a64e6-cfc2-4bca-abf9-dc18c963b02a?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f3a64e6-cfc2-4bca-abf9-dc18c963b02a?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f3a64e6-cfc2-4bca-abf9-dc18c963b02a?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f3a64e6-cfc2-4bca-abf9-dc18c963b02a?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f3a64e6-cfc2-4bca-abf9-dc18c963b02a?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f3a64e6-cfc2-4bca-abf9-dc18c963b02a?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/06476474-d39f-4cd8-9006-f6e60530d85c?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/06476474-d39f-4cd8-9006-f6e60530d85c?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/06476474-d39f-4cd8-9006-f6e60530d85c?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/06476474-d39f-4cd8-9006-f6e60530d85c?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/06476474-d39f-4cd8-9006-f6e60530d85c?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/06476474-d39f-4cd8-9006-f6e60530d85c?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/279afc4b-c078-4137-bb2c-bb1dd3d10d2a?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/279afc4b-c078-4137-bb2c-bb1dd3d10d2a?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/279afc4b-c078-4137-bb2c-bb1dd3d10d2a?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/279afc4b-c078-4137-bb2c-bb1dd3d10d2a?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/279afc4b-c078-4137-bb2c-bb1dd3d10d2a?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/279afc4b-c078-4137-bb2c-bb1dd3d10d2a?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          }
+        ]
+      },
+      "documents": { "document": [] },
+      "displayoptions": {
+        "reduced-ads-on-vip": { "value": "false" },
+        "hide-ads-on-vip": { "value": "false" },
+        "show-ratings": { "value": "true" },
+        "ad-flagging-enabled": { "value": "true" },
+        "hide-similard-ads-on-vip": { "value": "false" },
+        "category-change-allowed": { "value": "true" },
+        "offer-allowed": { "value": "false" },
+        "secure-payment-possible": { "value": "false" },
+        "ad-description-formatting-enabled": { "value": "false" },
+        "ad-documents-upload-enabled": { "value": "false" },
+        "display-map-on-vip": { "value": "false" },
+        "licence-plate-blurring-enabled": { "value": "false" },
+        "contact-poster-feedback": "",
+        "lead-generation-target": { "value": "false" },
+        "enable-image-titles": { "value": "false" }
+      },
+      "tracking": { "user-account-type": { "value": "private" } },
+      "dfp-params": { "dfp-param": [{ "key": "kba", "value": "03" }] },
+      "medias": { "media": [] },
+      "otherAttributes": {},
+      "id": "2528089076",
+      "version": "1.16",
+      "locale": "de_DE"
+    },
+    "nil": false,
+    "globalScope": true,
+    "typeSubstituted": true
+  }
+}

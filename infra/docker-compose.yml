@@ -10,11 +10,15 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     environment:
-      - DOMAIN=${DOMAIN}
       - RAPIDAPI_PROXY_SECRET=${RAPIDAPI_PROXY_SECRET}
     depends_on:
       - sample-nestjs
       - sample-python
+      - scraper-kleinanzeigen
+
+  scraper-kleinanzeigen:
+    image: ${DOCKERHUB_USERNAME}/scraper-kleinanzeigen:latest
+    restart: unless-stopped
 
   sample-nestjs:
     image: ${DOCKERHUB_USERNAME}/sample-nestjs:latest
@@ -29,7 +33,6 @@ services:
     image: ${DOCKERHUB_USERNAME}/sample-python:latest
     restart: unless-stopped
     environment:
-      - ROOT_PATH=/sample-python-docs
       - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
     depends_on:
       - postgres

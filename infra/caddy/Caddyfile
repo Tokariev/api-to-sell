@@ -2,34 +2,54 @@
 	admin off
 }
 
-{$DOMAIN:localhost} {
-	# API endpoints - auth required
-	route /sample-nestjs/* {
+sample-nestjs.dev.parsa1.de {
+	route /api/* {
 		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
 		respond @unauthorized "Unauthorized" 403
-		uri strip_prefix /sample-nestjs
 		reverse_proxy sample-nestjs:3000
 	}
 
-	route /sample-python/* {
-		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
-		respond @unauthorized "Unauthorized" 403
-		uri strip_prefix /sample-python
-		reverse_proxy sample-python:8000
-	}
-
-	# Docs endpoints - no auth required
-	handle /sample-nestjs-docs/* {
-		uri strip_prefix /sample-nestjs-docs
+	handle /docs* {
 		reverse_proxy sample-nestjs:3000
 	}
 
-	handle /sample-python-docs/* {
-		uri strip_prefix /sample-python-docs
+	handle {
+		reverse_proxy sample-nestjs:3000
+	}
+}
+
+sample-python.dev.parsa1.de {
+	route /api/* {
+		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
+		respond @unauthorized "Unauthorized" 403
 		reverse_proxy sample-python:8000
 	}
 
-	handle / {
-		respond "API Gateway" 200
+	handle /docs* {
+		reverse_proxy sample-python:8000
 	}
+
+	handle {
+		reverse_proxy sample-python:8000
+	}
+}
+
+scraper-kleinanzeigen.dev.parsa1.de {
+	route /api/* {
+		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
+		respond @unauthorized "Unauthorized" 403
+		reverse_proxy scraper-kleinanzeigen:8000
+	}
+
+	handle /docs* {
+		reverse_proxy scraper-kleinanzeigen:8000
+	}
+
+	handle {
+		reverse_proxy scraper-kleinanzeigen:8000
+	}
+}
+
+dev.parsa1.de {
+	respond "API Platform - dev.parsa1.de" 200
 }

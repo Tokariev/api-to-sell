@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "services/sample-nestjs/**"
+      - "!services/sample-nestjs/**.md"
 
 jobs:
   build-and-push:
@@ -17,10 +18,14 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      - uses: docker/setup-buildx-action@v3
+
       - uses: docker/build-push-action@v5
         with:
           context: services/sample-nestjs
           push: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/sample-nestjs:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/sample-nestjs:${{ github.sha }}

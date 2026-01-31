@@ -1,0 +1,914 @@
+{
+  "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad": {
+    "name": "{http://www.ebayclassifiedsgroup.com/schema/ad/v1}ad",
+    "declaredType": "com.ebay.ecg.api.spec.v1.schema.ad.Ad",
+    "scope": "javax.xml.bind.JAXBElement$GlobalScope",
+    "value": {
+      "price": {
+        "currency-iso-code": {
+          "value": {
+            "value": "EUR",
+            "localized-label": "\u20ac"
+          }
+        },
+        "amount": {
+          "value": 32100.0
+        },
+        "price-type": {
+          "value": "PLEASE_CONTACT"
+        }
+      },
+      "ad-type": {
+        "value": "OFFERED"
+      },
+      "poster-type": {
+        "value": "COMMERCIAL"
+      },
+      "title": {
+        "value": "Mercedes X-Klasse 4x4"
+      },
+      "description": {
+        "value": "Wir verkaufen unseren Mercedes Pick Up 4 x 4. Der Wagen befindet sich in einem \u00e4u\u00dfert gepflegtem Zustand und ist angemeldet. Er kann jederzeit Probe gefahren werden. Es handelt sich um einen gewerblichen Verkauf."
+      },
+      "imprint": {
+        "value": "Scher Dienstleistungen GmbH & Co. KG\r\nAuf Pfuhlst 11\r\n66589 Merchweiler\r\nVertretungsberechtigter Gesch\u00e4ftsf\u00fchrer: Thorsten Scher\r\nTel.: 0171-1744207\r\nFax: 06821-74 97 002\r\nE-Mail: info@scher-dienstleistungen.de\r\nRegistergericht: Amtsgericht Saarbr\u00fccken\r\nRegisternummer: HRB 11866\r\nStammkapital: 25.000 \u20ac\r\nUst. ID gem\u00e4\u00df \u00a7 27a UstG: DE 301681108\r\nInhaltlich Verantwortlicher: Thorsten Scher (Anschrift s.o.)"
+      },
+      "ad-address": {
+        "street": {
+          "value": ""
+        },
+        "state": {
+          "value": "Merchweiler"
+        },
+        "zip-code": {
+          "value": "66589"
+        },
+        "longitude": {
+          "value": "7.069852"
+        },
+        "latitude": {
+          "value": "49.35784"
+        },
+        "radius": {
+          "value": "2.17"
+        }
+      },
+      "ad-status": {
+        "value": "DELETED"
+      },
+      "contact-name": {
+        "value": "Jack"
+      },
+      "contact-name-initials": {
+        "value": "J"
+      },
+      "user-id": {
+        "value": "59537195"
+      },
+      "store-id": {},
+      "seller-account-type": {
+        "value": "COMMERCIAL"
+      },
+      "user-rating": {
+        "averageRating": {
+          "value": 1.0
+        }
+      },
+      "userBadges": {
+        "badges": [
+          {
+            "name": "rating",
+            "level": "2",
+            "value": ""
+          },
+          {
+            "name": "friendliness",
+            "level": "0",
+            "value": ""
+          },
+          {
+            "name": "reliability",
+            "level": "0",
+            "value": ""
+          }
+        ]
+      },
+      "ad-source-id": {},
+      "ad-external-reference-id": {},
+      "phone": {
+        "value": "00491711744207"
+      },
+      "start-date-time": {
+        "value": "2023-03-21T11:24:31.000+0100"
+      },
+      "user-since-date-time": {
+        "value": "2018-11-07T09:24:58.000+0100"
+      },
+      "features-active": {
+        "feature-active": []
+      },
+      "category": {
+        "id-name": {
+          "value": "Autos"
+        },
+        "localized-name": {
+          "value": "Autos"
+        },
+        "link": [],
+        "category": [],
+        "parent-id": {
+          "value": "210"
+        },
+        "has-fake-sub-category": {
+          "value": "true"
+        },
+        "id": "216"
+      },
+      "locations": {
+        "location": [
+          {
+            "regions": {
+              "region": [
+                {
+                  "localized-name": {
+                    "value": "Saarland"
+                  }
+                }
+              ],
+              "localized-label": "Bundesland"
+            },
+            "location": [],
+            "id": "334"
+          }
+        ]
+      },
+      "buy-now": {
+        "selected": "false"
+      },
+      "attributes": {
+        "attribute": [
+          {
+            "value": [
+              {
+                "value": "mercedes_benz",
+                "localized-label": "Mercedes Benz"
+              }
+            ],
+            "name": "autos.marke",
+            "unit": "",
+            "search-display": "false",
+            "dependent-name": "autos.model",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Marke"
+          },
+          {
+            "value": [
+              {
+                "value": "x_klasse",
+                "localized-label": "X-Klasse"
+              }
+            ],
+            "name": "autos.model",
+            "unit": "",
+            "search-display": "false",
+            "parent-name": "autos.marke",
+            "fake-sub-category": "true",
+            "type": "ENUM",
+            "localized-label": "Modell"
+          },
+          {
+            "value": [
+              {
+                "value": "87000",
+                "localized-label": "87.000"
+              }
+            ],
+            "name": "autos.km",
+            "unit": "km",
+            "search-display": "true",
+            "min-value": "0",
+            "max-value": "2000000",
+            "type": "LONG",
+            "localized-label": "Kilometerstand"
+          },
+          {
+            "value": [
+              {
+                "value": "nein",
+                "localized-label": "Unbesch\u00e4digtes Fahrzeug"
+              }
+            ],
+            "name": "autos.schaden",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugzustand"
+          },
+          {
+            "value": [
+              {
+                "value": "2019-11",
+                "localized-label": "November 2019"
+              }
+            ],
+            "name": "autos.ezdate",
+            "unit": "",
+            "search-display": "true",
+            "min-value": "1910-01-01",
+            "max-value": "2023-03-23",
+            "date-type": "YEAR_MONTH",
+            "type": "DATE",
+            "localized-label": "Erstzulassung"
+          },
+          {
+            "value": [
+              {
+                "value": "diesel",
+                "localized-label": "Diesel"
+              }
+            ],
+            "name": "autos.fuel",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "type": "ENUM",
+            "localized-label": "Kraftstoffart"
+          },
+          {
+            "value": [
+              {
+                "value": "automatik",
+                "localized-label": "Automatik"
+              }
+            ],
+            "name": "autos.shift",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Getriebe"
+          },
+          {
+            "value": [
+              {
+                "value": "suv",
+                "localized-label": "SUV/Gel\u00e4ndewagen"
+              }
+            ],
+            "name": "autos.typ",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Fahrzeugtyp"
+          },
+          {
+            "value": [
+              {
+                "value": "4_5",
+                "localized-label": "4/5"
+              }
+            ],
+            "name": "autos.anzahl_tueren",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Anzahl T\u00fcren"
+          },
+          {
+            "value": [
+              {
+                "value": "2024-03",
+                "localized-label": "M\u00e4rz 2024"
+              }
+            ],
+            "name": "autos.tuevdate",
+            "unit": "",
+            "search-display": "false",
+            "min-value": "2023-03-23",
+            "max-value": "2026-03-23",
+            "date-type": "YEAR_MONTH",
+            "type": "DATE",
+            "localized-label": "HU bis"
+          },
+          {
+            "value": [
+              {
+                "value": "4_gruen",
+                "localized-label": "4 (Gr\u00fcn)"
+              }
+            ],
+            "name": "autos.umweltplakette",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Umweltplakette"
+          },
+          {
+            "value": [
+              {
+                "value": "euro6",
+                "localized-label": "Euro6"
+              }
+            ],
+            "name": "autos.schadstoffklasse",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Schadstoffklasse"
+          },
+          {
+            "value": [
+              {
+                "value": "schwarz",
+                "localized-label": "Schwarz"
+              }
+            ],
+            "name": "autos.aussenfarbe",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Au\u00dfenfarbe"
+          },
+          {
+            "value": [
+              {
+                "value": "stoff",
+                "localized-label": "Stoff"
+              }
+            ],
+            "name": "autos.material_innenausstattung",
+            "unit": "",
+            "search-display": "false",
+            "fake-sub-category": "false",
+            "group-name": "vehicle_details",
+            "group-localized-label": "Fahrzeugdetails",
+            "type": "ENUM",
+            "localized-label": "Material Innenausstattung"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.trailer_coupling",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Anh\u00e4ngerkupplung"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.park_assistant",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Einparkhilfe"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.alluminium_rims",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Leichtmetallfelgen"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.xenon_led_light",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "exterior",
+            "group-localized-label": "Au\u00dfenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Xenon-/LED-Scheinwerfer"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.air_conditioning",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Klimaanlage"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.navi",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Navigationssystem"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.radio_tuner",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Radio/Tuner"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.bluetooth",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Bluetooth"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.handsfree_speaker",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Freisprecheinrichtung"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.seat_heating",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Sitzheizung"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.speed_control",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Tempomat"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.non_smoking",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "interior",
+            "group-localized-label": "Innenausstattung",
+            "type": "BOOLEAN",
+            "localized-label": "Nichtraucher-Fahrzeug"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.abs",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Antiblockiersystem (ABS)"
+          },
+          {
+            "value": [
+              {
+                "value": "true",
+                "localized-label": "true"
+              }
+            ],
+            "name": "autos.full_service_history",
+            "unit": "",
+            "search-display": "false",
+            "group-name": "security_environment",
+            "group-localized-label": "Sicherheit",
+            "type": "BOOLEAN",
+            "localized-label": "Scheckheftgepflegt"
+          }
+        ]
+      },
+      "link": [
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/ads/2391540723",
+          "rel": "self"
+        },
+        {
+          "href": "https://api.kleinanzeigen.de:443/api/users/59537195/ads/2391540723",
+          "rel": "self-user"
+        },
+        {
+          "href": "https://www.ebay-kleinanzeigen.de/s-anzeige/mercedes-x-klasse-4x4/2391540723-216-334",
+          "rel": "self-public-website"
+        }
+      ],
+      "pictures": {
+        "picture": [
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cb/cb420940-f724-47ee-805a-e57d6e0db1e1?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cb/cb420940-f724-47ee-805a-e57d6e0db1e1?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cb/cb420940-f724-47ee-805a-e57d6e0db1e1?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cb/cb420940-f724-47ee-805a-e57d6e0db1e1?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cb/cb420940-f724-47ee-805a-e57d6e0db1e1?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cb/cb420940-f724-47ee-805a-e57d6e0db1e1?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/07/075e51a5-5561-42bc-ac5e-70b0b0736b19?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/07/075e51a5-5561-42bc-ac5e-70b0b0736b19?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/07/075e51a5-5561-42bc-ac5e-70b0b0736b19?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/07/075e51a5-5561-42bc-ac5e-70b0b0736b19?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/07/075e51a5-5561-42bc-ac5e-70b0b0736b19?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/07/075e51a5-5561-42bc-ac5e-70b0b0736b19?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cf/cf044f51-93a6-4644-b523-840f82b7f182?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cf/cf044f51-93a6-4644-b523-840f82b7f182?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cf/cf044f51-93a6-4644-b523-840f82b7f182?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cf/cf044f51-93a6-4644-b523-840f82b7f182?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cf/cf044f51-93a6-4644-b523-840f82b7f182?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/cf/cf044f51-93a6-4644-b523-840f82b7f182?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/c6/c61d9350-3249-42cd-a7c3-8bbada148e99?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/c6/c61d9350-3249-42cd-a7c3-8bbada148e99?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/c6/c61d9350-3249-42cd-a7c3-8bbada148e99?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/c6/c61d9350-3249-42cd-a7c3-8bbada148e99?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/c6/c61d9350-3249-42cd-a7c3-8bbada148e99?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/c6/c61d9350-3249-42cd-a7c3-8bbada148e99?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/40/400671b0-d8b1-4b56-bd50-788f4f50c1da?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/40/400671b0-d8b1-4b56-bd50-788f4f50c1da?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/40/400671b0-d8b1-4b56-bd50-788f4f50c1da?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/40/400671b0-d8b1-4b56-bd50-788f4f50c1da?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/40/400671b0-d8b1-4b56-bd50-788f4f50c1da?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/40/400671b0-d8b1-4b56-bd50-788f4f50c1da?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/1f/1f83ffd7-b7bb-48fa-a112-5c6a0425fbe4?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/1f/1f83ffd7-b7bb-48fa-a112-5c6a0425fbe4?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/1f/1f83ffd7-b7bb-48fa-a112-5c6a0425fbe4?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/1f/1f83ffd7-b7bb-48fa-a112-5c6a0425fbe4?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/1f/1f83ffd7-b7bb-48fa-a112-5c6a0425fbe4?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/1f/1f83ffd7-b7bb-48fa-a112-5c6a0425fbe4?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/08/0876bed3-ac9d-4656-b2ec-03c29999d532?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/08/0876bed3-ac9d-4656-b2ec-03c29999d532?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/08/0876bed3-ac9d-4656-b2ec-03c29999d532?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/08/0876bed3-ac9d-4656-b2ec-03c29999d532?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/08/0876bed3-ac9d-4656-b2ec-03c29999d532?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/08/0876bed3-ac9d-4656-b2ec-03c29999d532?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/d8/d8da94d1-cad7-4ee8-8bdf-1329cd139318?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/d8/d8da94d1-cad7-4ee8-8bdf-1329cd139318?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/d8/d8da94d1-cad7-4ee8-8bdf-1329cd139318?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/d8/d8da94d1-cad7-4ee8-8bdf-1329cd139318?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/d8/d8da94d1-cad7-4ee8-8bdf-1329cd139318?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/d8/d8da94d1-cad7-4ee8-8bdf-1329cd139318?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          },
+          {
+            "link": [
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/85/8578430f-b45e-4785-9990-1d042d62d799?rule=$_0.JPG",
+                "rel": "thumbnail"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/85/8578430f-b45e-4785-9990-1d042d62d799?rule=$_2.JPG",
+                "rel": "teaser"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/85/8578430f-b45e-4785-9990-1d042d62d799?rule=$_1.JPG",
+                "rel": "large"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/85/8578430f-b45e-4785-9990-1d042d62d799?rule=$_59.JPG",
+                "rel": "extraLarge"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/85/8578430f-b45e-4785-9990-1d042d62d799?rule=$_57.JPG",
+                "rel": "XXL"
+              },
+              {
+                "href": "https://img.ebay-kleinanzeigen.de/api/v1/prod-ads/images/85/8578430f-b45e-4785-9990-1d042d62d799?rule=$_{imageId}.JPG",
+                "rel": "canonicalUrl"
+              }
+            ]
+          }
+        ]
+      },
+      "documents": {
+        "document": []
+      },
+      "displayoptions": {
+        "reduced-ads-on-vip": {
+          "value": "false"
+        },
+        "hide-ads-on-vip": {
+          "value": "false"
+        },
+        "show-ratings": {
+          "value": "true"
+        },
+        "ad-flagging-enabled": {
+          "value": "true"
+        },
+        "hide-similard-ads-on-vip": {
+          "value": "false"
+        },
+        "category-change-allowed": {
+          "value": "true"
+        },
+        "offer-allowed": {
+          "value": "false"
+        },
+        "secure-payment-possible": {
+          "value": "false"
+        },
+        "ad-description-formatting-enabled": {
+          "value": "false"
+        },
+        "ad-documents-upload-enabled": {
+          "value": "false"
+        },
+        "display-map-on-vip": {
+          "value": "false"
+        },
+        "licence-plate-blurring-enabled": {
+          "value": "false"
+        },
+        "contact-poster-feedback": "",
+        "lead-generation-target": {
+          "value": "false"
+        },
+        "enable-image-titles": {
+          "value": "false"
+        }
+      },
+      "tracking": {
+        "user-account-type": {
+          "value": "commercial"
+        }
+      },
+      "medias": {
+        "media": []
+      },
+      "otherAttributes": {},
+      "id": "2391540723",
+      "version": "1.16",
+      "locale": "de_DE"
+    },
+    "nil": false,
+    "globalScope": true,
+    "typeSubstituted": true
+  }
+}
