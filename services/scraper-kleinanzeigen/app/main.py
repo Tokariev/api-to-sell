@@ -6,6 +6,13 @@ from fastapi.responses import JSONResponse
 
 from app.KleinanzeigenScraper import KleinanzeigenScraper
 from app.RequestError import RequestError
+from app.docs import (
+    SCRAPE_DESCRIPTION,
+    SCRAPE_RESPONSES,
+    SCRAPE_SUMMARY,
+    SCRAPE_URL_DESCRIPTION,
+    SCRAPE_URL_EXAMPLE,
+)
 
 app = FastAPI(
     title="Kleinanzeigen Scraper API",
@@ -20,8 +27,19 @@ def health():
     return {"status": "ok"}
 
 
-@app.get("/api/scrape")
-def scrape(url: str = Query(..., description="Kleinanzeigen.de listing URL")):
+@app.get(
+    "/api/scrape",
+    summary=SCRAPE_SUMMARY,
+    description=SCRAPE_DESCRIPTION,
+    responses=SCRAPE_RESPONSES,
+)
+def scrape(
+    url: str = Query(
+        ...,  # required
+        description=SCRAPE_URL_DESCRIPTION,
+        example=SCRAPE_URL_EXAMPLE,
+    )
+):
     if "kleinanzeigen.de/s-anzeige" not in url:
         raise HTTPException(status_code=400, detail="URL must be a kleinanzeigen.de listing URL")
 
