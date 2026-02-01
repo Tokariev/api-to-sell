@@ -107,10 +107,61 @@ SCRAPE_RESPONSE_EXAMPLE = {
     "engine_power": [],
 }
 
+SCRAPE_RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "url": {"type": "string"},
+        "source": {"type": "string"},
+        "externalCarId": {"type": "string"},
+        "ad_status": {"type": "string"},
+        "title": {"type": "string"},
+        "brand": {"type": "string"},
+        "model": {"type": "string"},
+        "year": {"type": "string"},
+        "first_registration": {"type": "string"},
+        "body_type": {"type": "string"},
+        "fuel_type": {"type": "string"},
+        "model_variant": {"type": "string"},
+        "description": {"type": "string"},
+        "technical_data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "tag": {"type": "string"},
+                    "label": {"type": "string"},
+                    "value": {"type": "string"},
+                },
+            },
+        },
+        "seller_phone": {"type": "array", "items": {"type": "string"}},
+        "contact_name": {"type": "string"},
+        "contact_active_since": {"type": "string"},
+        "equipment": {"type": "array", "items": {"type": "string"}},
+        "price": {"type": "number"},
+        "price_rating": {"type": ["number", "null"]},
+        "price_history": {"type": "array", "items": {"type": "object"}},
+        "has_value_added_tax": {"type": ["boolean", "null"]},
+        "is_negotiation_basis": {"type": "boolean"},
+        "seller_type": {"type": "string"},
+        "postal_code": {"type": "string"},
+        "city": {"type": "string"},
+        "photo_urls": {"type": "array", "items": {"type": "string"}},
+        "has_full_service_history": {"type": "boolean"},
+        "has_car_accident": {"type": "boolean"},
+        "engine_power": {"type": "array", "items": {"type": "string"}},
+    },
+}
+
 SCRAPE_RESPONSES = {
     200: {
         "description": "Listing data extracted successfully.",
-        "content": {"application/json": {"example": SCRAPE_RESPONSE_EXAMPLE}},
+        "content": {
+            "application/json": {
+                "schema": SCRAPE_RESPONSE_SCHEMA,
+                "example": SCRAPE_RESPONSE_EXAMPLE,
+            }
+        },
     },
     400: {"description": "Invalid URL. Must be a Kleinanzeigen.de listing URL."},
     502: {"description": "Upstream request failed while fetching the listing."},
