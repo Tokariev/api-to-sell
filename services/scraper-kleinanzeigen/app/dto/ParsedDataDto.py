@@ -23,8 +23,6 @@ class ParsedDataDto:
     contact_active_since: str = None
     equipment: list = field(default_factory=list)
     price: int = None
-    price_rating: object = None
-    price_history: list = field(default_factory=list)
     has_value_added_tax: bool = None
     is_negotiation_basis: bool = None
     seller_type: str = None
@@ -33,7 +31,6 @@ class ParsedDataDto:
     photo_urls: list = field(default_factory=list)
     has_full_service_history: bool = None
     has_car_accident: bool = None
-    engine_power: list = field(default_factory=list)
-
+    
     def to_dict(self):
         return asdict(self)

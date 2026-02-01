@@ -29,8 +29,6 @@ class ParsedDataResponseDto(BaseModel):
     contact_active_since: Optional[str] = None
     equipment: List[str] = []
     price: Optional[float] = None
-    price_rating: Optional[Any] = None
-    price_history: List[Any] = []
     has_value_added_tax: Optional[bool] = None
     is_negotiation_basis: Optional[bool] = None
     seller_type: Optional[str] = None
@@ -39,4 +37,3 @@ class ParsedDataResponseDto(BaseModel):
     photo_urls: List[str] = []
     has_full_service_history: Optional[bool] = None
     has_car_accident: Optional[bool] = None
-    engine_power: List[Any] = []
