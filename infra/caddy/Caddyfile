@@ -3,10 +3,12 @@
 }
 
 sample-nestjs.dev.parsa1.de {
-	route /api/* {
-		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
-		respond @unauthorized "Unauthorized" 403
-		reverse_proxy sample-nestjs:3000
+	handle /api/* {
+		route {
+			@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
+			respond @unauthorized "Unauthorized" 403
+			reverse_proxy sample-nestjs:3000
+		}
 	}
 
 	handle /docs* {
@@ -19,10 +21,12 @@ sample-nestjs.dev.parsa1.de {
 }
 
 sample-python.dev.parsa1.de {
-	route /api/* {
-		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
-		respond @unauthorized "Unauthorized" 403
-		reverse_proxy sample-python:8000
+	handle /api/* {
+		route {
+			@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
+			respond @unauthorized "Unauthorized" 403
+			reverse_proxy sample-python:8000
+		}
 	}
 
 	handle /docs* {
@@ -35,10 +39,12 @@ sample-python.dev.parsa1.de {
 }
 
 scraper-kleinanzeigen.dev.parsa1.de {
-	route /api/* {
-		@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
-		respond @unauthorized "Unauthorized" 403
-		reverse_proxy scraper-kleinanzeigen:8000
+	handle /api/* {
+		route {
+			@unauthorized not header X-RapidAPI-Proxy-Secret {$RAPIDAPI_PROXY_SECRET}
+			respond @unauthorized "Unauthorized" 403
+			reverse_proxy scraper-kleinanzeigen:8000
+		}
 	}
 
 	handle /docs* {

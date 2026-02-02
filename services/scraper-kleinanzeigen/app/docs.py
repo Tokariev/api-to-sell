@@ -1,3 +1,5 @@
+from app.dto.ParsedDataResponseDto import ParsedDataResponseDto
+
 SCRAPE_SUMMARY = "Kleinanzeigen.de car scraper"
 
 SCRAPE_DESCRIPTION = (
@@ -8,7 +10,10 @@ SCRAPE_DESCRIPTION = (
 )
 
 SCRAPE_RESPONSES = {
-    200: {"description": "Listing data extracted successfully."},
+    200: {
+        "description": "Listing data extracted successfully.",
+        "model": ParsedDataResponseDto,
+    },
     400: {"description": "Invalid URL. Must be a Kleinanzeigen.de listing URL."},
     502: {"description": "Upstream request failed while fetching the listing."},
 }
