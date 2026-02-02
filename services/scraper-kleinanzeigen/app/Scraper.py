@@ -126,7 +126,6 @@ class Scraper(object):
             photo_urls = self.get_photo_urls(),
             has_full_service_history = self.has_full_service_history(),
             has_car_accident = self.has_car_accident(),
-            engine_power= [],
         )
 
         # data.engine_power = self.fetch_engine_power(data)
