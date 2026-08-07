@@ -23,5 +23,5 @@ SCRAPE_URL_DESCRIPTION = (
 )
 
 SCRAPE_URL_EXAMPLE = (
-    "https://www.kleinanzeigen.de/s-anzeige/bmw-320d-2016/1234567890-216-1234"
+    "https://www.kleinanzeigen.de/s-anzeige/demo-car/123456789-123-12345"
 )
