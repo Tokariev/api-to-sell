@@ -54,7 +54,8 @@ services:
     restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    command: --interval 60 --cleanup
+      - ${HOME}/.docker/config.json:/config.json:ro
+    command: --interval 300 --cleanup
 
 volumes:
   caddy_data:
