@@ -2,6 +2,7 @@ import os
 import re
 
 from fastapi import FastAPI, HTTPException, Query
+from app.DemoCar import DemoCar
 from app.KleinanzeigenScraper import KleinanzeigenScraper
 from app.RequestError import RequestError
 from app.docs import (
@@ -42,6 +43,9 @@ def scrape(
 ) -> ParsedDataResponseDto:
     if "kleinanzeigen.de/s-anzeige" not in url:
         raise HTTPException(status_code=400, detail="URL must be a kleinanzeigen.de listing URL")
+
+    if DemoCar.matches(url):
+        return ParsedDataResponseDto(**DemoCar.load())
 
     try:
         scraper = KleinanzeigenScraper(url, check_duplicate=False)

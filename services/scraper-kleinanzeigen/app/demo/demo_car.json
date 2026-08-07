@@ -1,0 +1,94 @@
+{
+  "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-2-2-awd-sportline/3478846203-216-30266",
+  "externalCarId": "3314195555",
+  "ad_status": "ACTIVE",
+  "title": "Mazda CX-5 2.2 Diesel Automatik | Leder | Bose | AHK | gepflegt",
+  "brand": "Mazda",
+  "model": "CX Reihe",
+  "year": "2016",
+  "first_registration": "2016-05",
+  "body_type": "SUV/Geländewagen",
+  "fuel_type": "Diesel",
+  "model_variant": "Method not implemented",
+  "description": "Zum Verkauf steht ein gepflegter Mazda CX-5 2.2 Turbodiesel mit Automatikgetriebe aus 2. Hand. Das Fahrzeug wurde von mir im Mai 2025 bei einem Händler gekauft und seitdem nur wenig gefahren. Der Verkauf erfolgt aus privaten Gründen. Die Kombination aus Crystal White Pearl Lack und weißer Lederausstattung wirkt sehr hochwertig und gepflegt – insbesondere bei Sonnenlicht kommt der Perleffekt des Lacks schön zur Geltung. Das Fahrzeug ist technisch einwandfrei, scheckheftgepflegt und ein Nichtraucherfahrzeug. Eine Händlergewährleistung aus dem Kauf im Mai 2025 besteht noch bis April 2026 (beim verkaufenden Autohaus). ZUSTAND Normale Gebrauchsspuren entsprechend Alter und Laufleistung. Kleine optische Macke an der hinteren Stoßstange (siehe Foto). Ansonsten ein sehr gepflegtes Fahrzeug mit sauberem Innenraum und einem insgesamt sehr guten Pflegezustand. AUSSTATTUNG (Auszug) - Weiße Lederausstattung (Vollleder) - Bose Soundsystem - Navigationssystem - LED-Scheinwerfer - Rückfahrkamera - Einparkhilfe vorne & hinten - Sitzheizung vorne - Elektrisch einstellbare Sitze (mit Memory-Funktion für den Fahrer) - Tempomat - Bluetooth & Freisprecheinrichtung - Anhängerkupplung (2.000 kg) - Spurhalteassistent - Blind Spot Monitoring (Toter-Winkel-Assistent) - Notbremsassistent - Automatisches Abschließen - Start-Stopp-System - Klimaanlage - Leichtmetallfelgen - Allwetterreifen Privatverkauf",
+  "technical_data": [
+    {
+      "tag": "autos.marke",
+      "label": "autos.marke",
+      "value": "Mazda"
+    },
+    {
+      "tag": "autos.model",
+      "label": "autos.model",
+      "value": "CX Reihe"
+    },
+    {
+      "tag": "autos.km",
+      "label": "autos.km",
+      "value": "139.500 KM"
+    },
+    {
+      "tag": "autos.schaden",
+      "label": "autos.schaden",
+      "value": "Unbeschädigtes Fahrzeug"
+    },
+    {
+      "tag": "autos.ezdate",
+      "label": "autos.ezdate",
+      "value": "05/2016"
+    },
+    {
+      "tag": "autos.fuel",
+      "label": "autos.fuel",
+      "value": "Diesel"
+    },
+    {
+      "tag": "autos.power",
+      "label": "autos.power",
+      "value": "175 PS"
+    },
+    {
+      "tag": "autos.shift",
+      "label": "autos.shift",
+      "value": "Automatik"
+    },
+    {
+      "tag": "autos.typ",
+      "label": "autos.typ",
+      "value": "SUV/Geländewagen"
+    }
+  ],
+  "seller_phone": ["+491785577550"],
+  "contact_name": "L. Kröger",
+  "contact_active_since": "06.02.17",
+  "equipment": [
+    "Anhängerkupplung",
+    "Einparkhilfe",
+    "Leichtmetallfelgen",
+    "Xenon-/LED-Scheinwerfer",
+    "Klimaanlage",
+    "Navigationssystem",
+    "Radio/Tuner",
+    "Bluetooth",
+    "Freisprecheinrichtung",
+    "Sitzheizung",
+    "Tempomat",
+    "Nichtraucher-Fahrzeug",
+    "Antiblockiersystem (ABS)",
+    "Scheckheftgepflegt"
+  ],
+  "price": 15800,
+  "has_value_added_tax": false,
+  "is_negotiation_basis": true,
+  "seller_type": "Privat",
+  "postal_code": "48153",
+  "city": "Centrum",
+  "photo_urls": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/a913-4890-a591-409b74d3091e?rule=$_59.JPG",
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8f/d17c-4ef6-b82f-374f5248377b?rule=$_59.JPG",
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/0240-47c5-bb09-9ebd39ae9da2?rule=$_59.JPG",
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/bd93-4870-bb2b-f93486225151?rule=$_59.JPG"
+  ],
+  "has_full_service_history": true,
+  "has_car_accident": false
+}
